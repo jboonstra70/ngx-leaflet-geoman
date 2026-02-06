@@ -1,6 +1,6 @@
 # @dvina/ngx-leaflet-geoman
 
-> Leaflet Geoman extension to the @asymmetrik/ngx-leaflet package for Angular.io
+> Leaflet Geoman extension to the @bluehalo/ngx-leaflet package for Angular.io
 > Provides Leaflet Geoman integration into Angular.io projects. Compatible with Leaflet v1.x and Leaflet Geoman-io 2.x
 
 ## Table of Contents
@@ -18,7 +18,7 @@ Install the package and its peer dependencies via npm (or yarn):
 
 ```shell
 npm install leaflet
-npm install @asymmetrik/ngx-leaflet
+npm install @bluehalo/ngx-leaflet
 npm install @geoman-io/leaflet-geoman-free
 npm install @dvina/ngx-leaflet-geoman
 ```
@@ -34,7 +34,7 @@ npm install --save-dev @types/leaflet
 To use this library, there are a handful of setup steps to go through that vary based on your app environment (e.g., Webpack, ngCli, SystemJS, etc.).
 Generally, the steps are:
 
--   Follow the instructions to install and configure [@asymmetrik/ngx-leaflet](https://github.com/Asymmetrik/ngx-leaflet)
+-   Follow the instructions to install and configure [@bluehalo/ngx-leaflet](https://github.com/Asymmetrik/ngx-leaflet)
 -   Install this library and the Leaflet typings (see above).
 -   Import the Leaflet and leaflet-geoman-free stylesheet
 -   Import the ngx-leaflet and ngx-leaflet-geoman modules into your Angular project
@@ -44,7 +44,7 @@ Generally, the steps are:
 
 For leaflet to work, you need to have the leaflet stylesheets loaded into your application.
 If you've installed via npm, you will need to load `./node_modules/leaflet/dist/leaflet.css` and `./node_modules/@geoman-io/leaflet-geoman-free/dist/leaflet-geoman.css`.
-How you include the stylesheet will depend on your specific setup. For examples, refer to the [@asymmetrik/ngx-leaflet](https://github.com/Asymmetrik/ngx-leaflet) README
+How you include the stylesheet will depend on your specific setup. For examples, refer to the [@bluehalo/ngx-leaflet](https://github.com/Asymmetrik/ngx-leaflet) README
 
 ### Import Code Dependencies and Module
 
@@ -59,7 +59,7 @@ Note that you also need to import the ngx-leaflet module as well.
 For example, in your `app.module.ts`, add:
 
 ```js
-import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import { LeafletModule } from '@bluehalo/ngx-leaflet';
 import { LeafletGeomanModule } from '@dvina/ngx-leaflet-geoman';
 
 ...

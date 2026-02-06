@@ -125,7 +125,7 @@ declare module 'leaflet' {
 			indexPath: number;
 			markerEvent: any;
 			shape: PM.SUPPORTED_SHAPES;
-			intersectionRest: boolean;
+			intersectionReset: boolean;
 		}
 
 		/** Fired when coords of a layer are reset. E.g. by self-intersection.. */

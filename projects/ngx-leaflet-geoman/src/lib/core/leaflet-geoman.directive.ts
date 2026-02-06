@@ -11,7 +11,7 @@ import { Directive, EventEmitter, Input, NgZone, OnInit, Output } from '@angular
 import { GeomanEvents, PM } from 'leaflet';
 import '@geoman-io/leaflet-geoman-free';
 
-import { LeafletDirective, LeafletDirectiveWrapper, LeafletUtil } from '@asymmetrik/ngx-leaflet';
+import { LeafletDirective, LeafletDirectiveWrapper, LeafletUtil } from '@bluehalo/ngx-leaflet';
 
 @Directive({
 	selector: '[leafletGeoman]',

@@ -8,7 +8,7 @@
 
 import { NgModule } from '@angular/core';
 
-import { LeafletModule } from '@asymmetrik/ngx-leaflet';
+import { LeafletModule } from '@bluehalo/ngx-leaflet';
 
 import { LeafletGeomanDirective } from './core/leaflet-geoman.directive';
 

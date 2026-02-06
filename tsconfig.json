@@ -3,7 +3,8 @@
 	"compilerOptions": {
 		"baseUrl": "./",
 		"outDir": "./dist/out-tsc",
-		"forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
 		"strict": false,
 		"noImplicitOverride": true,
 		"noPropertyAccessFromIndexSignature": true,
@@ -13,8 +14,7 @@
 		"paths": {
 			"ngx-leaflet-geoman": ["dist/ngx-leaflet-geoman"]
 		},
-		"declaration": false,
-		"downlevelIteration": true,
+    "declaration": false,
 		"experimentalDecorators": true,
 		"moduleResolution": "node",
 		"importHelpers": true,
