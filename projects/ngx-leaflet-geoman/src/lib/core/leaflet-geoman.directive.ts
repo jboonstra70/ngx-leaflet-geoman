@@ -14,7 +14,8 @@ import '@geoman-io/leaflet-geoman-free';
 import { LeafletDirective, LeafletDirectiveWrapper, LeafletUtil } from '@bluehalo/ngx-leaflet';
 
 @Directive({
-	selector: '[leafletGeoman]',
+    selector: '[leafletGeoman]',
+    standalone: false
 })
 export class LeafletGeomanDirective implements OnInit {
 	leafletDirective: LeafletDirectiveWrapper;
